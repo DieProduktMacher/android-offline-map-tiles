@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="center_lat" format="float" type="integer">48.144527</item>
+    <item name="center_lng" format="float" type="integer">11.565928</item>
+    <integer name="zoom">10</integer>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        map:cameraTargetLat="@integer/center_lat"
+        map:cameraTargetLng="@integer/center_lng"
+        map:cameraTilt="0"
+        map:cameraZoom="@integer/zoom"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <TextView
+        android:id="@+id/loadingTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Downloading..."
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:background="#AA000000"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:gravity="center" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_offline"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:id="@+id/go_offline"/>
+
+
+</RelativeLayout>
+

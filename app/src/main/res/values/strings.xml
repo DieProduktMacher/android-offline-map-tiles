@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoogleMapsGoOffline</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="go_offline">Go Offline!</string>
+    <string name="go_online">Go Online!</string>
+
+</resources>

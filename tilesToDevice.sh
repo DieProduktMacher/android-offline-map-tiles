@@ -1,0 +1,1 @@
+adb push downloadedTiles /sdcard/Android/data/de.langersteff.googlemapsgooffline/map/
