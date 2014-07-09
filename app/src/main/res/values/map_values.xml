@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="center_lat" format="float" type="integer">48.144527</item>
-    <item name="center_lng" format="float" type="integer">11.565928</item>
-    <integer name="zoom">10</integer>
+    <item name="center_lat" format="float" type="integer">50.980015</item>
+    <item name="center_lng" format="float" type="integer">11.322919</item>
+    <!--<item name="center_lat" format="float" type="integer">48.144527</item>-->
+    <!--<item name="center_lng" format="float" type="integer">11.565928</item>-->
+    <integer name="zoom">11</integer>
 </resources>
